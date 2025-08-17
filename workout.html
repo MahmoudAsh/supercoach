@@ -1,0 +1,775 @@
+<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Sun Aug 17 2025 14:16:30 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="687e56508c4fc66ec468e440" data-wf-site="6576f08a4bd19e9efe88b0ca" lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Workout</title>
+  <meta content="Workout" property="og:title">
+  <meta content="Workout" property="twitter:title">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Webflow" name="generator">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/supercoach.webflow.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Alexandria:100,200,300,regular,500,600,700,800,900:arabic,latin","Sora:100,200,300,regular,500,600,700,800","Inter:100,200,300,regular,500,600,700,800,900"]  }});</script>
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="images/webclip.png" rel="apple-touch-icon">
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-5NBYPWHS4Q"></script>
+  <script type="text/javascript">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('set', 'developer_id.dZGVlNj', true);gtag('config', 'G-5NBYPWHS4Q');</script><!--  Google tag (gtag.js)  -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-5NBYPWHS4Q"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5NBYPWHS4Q');
+</script>
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+html[lang="ar-EG"]>*, a[hreflang="ar-EG"]
+{
+  font-family: "Cairo", sans-serif !important;
+}
+html[lang="ar-EG"] h2, #hero-title{
+	font-weight:bold;    
+}
+html[lang="ar-EG"] .text-rtl{
+	text-align:right;  
+}
+html[lang="ar-EG"] .plan-tier-s.left{
+    border-radius: 0 8px 8px 0 !important;
+}  
+html[lang="ar-EG"] .plan-tier-s.right{
+    border-radius: 8px 0 0 8px !important;
+}  
+html[lang="ar-EG"] .image-149 {
+    max-width: 110% !important;
+    position: relative;
+    inset: auto -3% 0px auto !important;
+}
+html[lang="ar-EG"] .tab-content-2.text-rtl {
+  margin-right:0;
+}
+html[lang="ar-EG"] .line-l{
+    inset: auto auto 42% 104% !important;
+    transform: scaleX(-1) !important;
+}
+html[lang="ar-EG"] .flip-ar{
+  transform: scaleX(-1) !important;
+}
+@media screen and (max-width: 780px) {
+  /* Add your responsive CSS for extra large screens here */
+    html[lang="ar-EG"] .text-rtl{
+      text-align:center;  
+    }
+    html[lang="ar-EG"] .image-149 {
+      max-width: 110% !important;
+      position: relative;
+      inset: auto 0% 0px auto !important;
+	}
+  	.client-app-img {
+        left: 20px !important;
+    }
+}
+</style>
+</head>
+<body class="body-4">
+  <div class="new-main-nav"><img loading="lazy" src="images/Subtract.svg" alt="" class="nav-crop-edge right"><img loading="lazy" src="images/Subtract-1.svg" alt="" class="nav-crop-edge">
+    <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar-2 w-nav">
+      <div class="new-nav-container dark w-container">
+        <a href="#" class="brand-3 w-nav-brand"><img loading="lazy" src="images/sup-logo.svg" alt="" class="image-164"></a>
+        <nav role="navigation" class="nav-menu-2 dark w-nav-menu">
+          <a href="index.html" class="new-nav-link dark w-nav-link">Home</a>
+          <a href="workout.html" aria-current="page" class="new-nav-link dark w-nav-link w--current">Workout</a>
+          <a href="#" class="new-nav-link dark w-nav-link">Nutrition</a>
+          <a href="pricing-plans.html" class="new-nav-link dark w-nav-link">Pricing</a>
+          <a href="https://blog.supercoach.me/" target="_blank" class="new-nav-link dark w-nav-link">Blog</a>
+          <div class="menu">
+            <div data-delay="0" data-hover="false" class="dropdown-3 w-dropdown">
+              <div class="dropdown-toggle-4 dark w-dropdown-toggle">
+                <div class="w-icon-dropdown-toggle"></div>
+                <div id="lang-name">En</div>
+              </div>
+              <nav class="dropdown-list-2 w-dropdown-list">
+                <div class="locales-wrapper w-locales-list">
+                  <div role="list" class="locales-list w-locales-items">
+                    <div role="listitem" class="w-locales-item">
+                      <a hreflang="en" href="workout.html" aria-current="page" class="link-4">English</a>
+                    </div>
+                    <div role="listitem" class="w-locales-item">
+                      <a hreflang="ar-EG" href="workout.html" aria-current="page" class="link-4">اللغة العربية</a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+            </div>
+            <a href="https://app.supercoach.me/admin/#/register" class="button-10 w-button">Get Started</a>
+          </div>
+        </nav>
+        <div class="menu-button-5 w-nav-button">
+          <div class="icon-3 w-icon-nav-menu"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="sup-hero">
+    <div class="container">
+      <div class="div-block-27">
+        <div class="content flex-center dark-content">
+          <div id="hero-title" class="text-block-16 pd-top"><span class="text-span-3 dark-text">SuperCoach Workout Builder: </span><span class="text-span-4">More Clients, Less Work</span></div>
+          <div class="text-block-15 sub-color">Effortlessly create and customize pro-level training programs in seconds. No cookie-cutter plans, just smarter coaching.</div>
+          <div class="actions pd-top">
+            <a href="https://app.supercoach.me/admin/#/register" target="_blank" class="newprimarybtn w-button">Get Started for Free</a>
+          </div>
+        </div>
+        <div class="img-content"><img src="images/workout-header.png" loading="lazy" sizes="(max-width: 801px) 100vw, 801px" srcset="images/workout-header-p-500.png 500w, images/workout-header-p-800.png 800w, images/workout-header.png 801w" alt="" class="image-175"></div>
+      </div>
+    </div>
+  </div>
+  <section id="how-it-works" class="features sec-padding">
+    <div class="container">
+      <div class="section-header none">
+        <h2 class="heading-18">Make Your Clients Train With You Forever!</h2>
+        <p class="body-paragraph">Provide each trainee with a world-class personalized experience through the unrivaled SuperCoach trainee app</p>
+        <div class="mobile-tabs">
+          <div id="collapse-card" class="dashboard-view-mob-sec open"><img loading="lazy" src="images/Section-Edge-TopLift.svg" alt="" class="edge-corner top-left small"><img loading="lazy" src="images/Section-Edge-TopRight.svg" alt="" class="edge-corner top-right small"><img loading="lazy" src="images/Section-Edge-BottomLift.svg" alt="" class="edge-corner bottom-left small"><img loading="lazy" src="images/Section-Edge-BottomRight.svg" alt="" class="edge-corner bottom-right small">
+            <div class="tabs-header">Training Programs</div>
+            <div class="dashboard-image-area open">
+              <div class="dashboard-screen-content">
+                <div class="dashboard-content-ex">
+                  <p class="body-paragraph dark">A clear training experience for both beginners &amp; athletes</p>
+                </div>
+              </div><img sizes="(max-width: 1002px) 100vw, 1002px" srcset="images/001---Training-p-500.png 500w, images/001---Training-p-800.png 800w, images/001---Training.png 1002w" alt="" loading="lazy" src="images/001---Training.png" class="image-166">
+            </div><img loading="lazy" src="images/chevron-down-g.svg" alt="" class="arrow-down">
+          </div>
+          <div id="collapse-card" class="dashboard-view-mob-sec"><img loading="lazy" src="images/Section-Edge-TopLift.svg" alt="" class="edge-corner top-left small"><img loading="lazy" src="images/Section-Edge-TopRight.svg" alt="" class="edge-corner top-right small"><img loading="lazy" src="images/Section-Edge-BottomLift.svg" alt="" class="edge-corner bottom-left small"><img loading="lazy" src="images/Section-Edge-BottomRight.svg" alt="" class="edge-corner bottom-right small">
+            <div class="tabs-header">Nutrition Meals</div>
+            <div class="dashboard-image-area">
+              <div class="dashboard-screen-content">
+                <div class="dashboard-content-ex">
+                  <p class="body-paragraph dark">Hyper-personalized &amp; convenient meal plans for all</p>
+                </div>
+              </div><img src="images/001---Nutrition.png" loading="lazy" alt="" sizes="(max-width: 1003px) 100vw, 1003px" srcset="images/001---Nutrition-p-500.png 500w, images/001---Nutrition-p-800.png 800w, images/001---Nutrition.png 1003w" class="image-166">
+            </div><img src="images/chevron-down-g.svg" loading="lazy" alt="" class="arrow-down">
+          </div>
+          <div id="collapse-card" class="dashboard-view-mob-sec"><img loading="lazy" src="images/Section-Edge-TopLift.svg" alt="" class="edge-corner top-left small"><img loading="lazy" src="images/Section-Edge-TopRight.svg" alt="" class="edge-corner top-right small"><img loading="lazy" src="images/Section-Edge-BottomLift.svg" alt="" class="edge-corner bottom-left small"><img loading="lazy" src="images/Section-Edge-BottomRight.svg" alt="" class="edge-corner bottom-right small">
+            <div class="tabs-header">In-App Messaging</div>
+            <div class="dashboard-image-area">
+              <div class="dashboard-screen-content">
+                <div class="dashboard-content-ex">
+                  <p class="body-paragraph dark">Intuitive in-app messaging for communication &amp; support</p>
+                </div>
+              </div><img src="images/001---Smart-Connect.png" loading="lazy" alt="" sizes="(max-width: 1002px) 100vw, 1002px" srcset="images/001---Smart-Connect-p-500.png 500w, images/001---Smart-Connect-p-800.png 800w, images/001---Smart-Connect.png 1002w" class="image-166">
+            </div><img src="images/chevron-down-g.svg" loading="lazy" alt="" class="arrow-down">
+          </div>
+          <div id="collapse-card" class="dashboard-view-mob-sec"><img loading="lazy" src="images/Section-Edge-TopLift.svg" alt="" class="edge-corner top-left small"><img loading="lazy" src="images/Section-Edge-TopRight.svg" alt="" class="edge-corner top-right small"><img loading="lazy" src="images/Section-Edge-BottomLift.svg" alt="" class="edge-corner bottom-left small"><img loading="lazy" src="images/Section-Edge-BottomRight.svg" alt="" class="edge-corner bottom-right small">
+            <div class="tabs-header">Progress Tracking</div>
+            <div class="dashboard-image-area">
+              <div class="dashboard-screen-content">
+                <div class="dashboard-content-ex">
+                  <p class="body-paragraph dark">Powerful training, nutrition, &amp; body measurements logging</p>
+                </div>
+              </div><img src="images/001---Smart-Connect-1.png" loading="lazy" alt="" sizes="(max-width: 1003px) 100vw, 1003px" srcset="images/001---Smart-Connect-1-p-500.png 500w, images/001---Smart-Connect-1-p-800.png 800w, images/001---Smart-Connect-1.png 1003w" class="image-166">
+            </div><img src="images/chevron-down-g.svg" loading="lazy" alt="" class="arrow-down">
+          </div>
+          <div id="collapse-card" class="dashboard-view-mob-sec"><img loading="lazy" src="images/Section-Edge-TopLift.svg" alt="" class="edge-corner top-left small"><img loading="lazy" src="images/Section-Edge-TopRight.svg" alt="" class="edge-corner top-right small"><img loading="lazy" src="images/Section-Edge-BottomLift.svg" alt="" class="edge-corner bottom-left small"><img loading="lazy" src="images/Section-Edge-BottomRight.svg" alt="" class="edge-corner bottom-right small">
+            <div class="tabs-header">Daily Task Reminders</div>
+            <div class="dashboard-image-area">
+              <div class="dashboard-screen-content">
+                <div class="dashboard-content-ex">
+                  <p class="body-paragraph dark">ll-In-One Holistic Coaching Tools for Lasting Lifestyle</p>
+                </div>
+              </div><img src="images/Task-Reminder.png" loading="lazy" alt="" sizes="(max-width: 1003px) 100vw, 1003px" srcset="images/Task-Reminder-p-500.png 500w, images/Task-Reminder-p-800.png 800w, images/Task-Reminder.png 1003w" class="image-166">
+            </div><img src="images/chevron-down-g.svg" loading="lazy" alt="" class="arrow-down">
+          </div>
+        </div>
+      </div>
+      <div class="content-box mg-t-1">
+        <div class="how-it-box">
+          <div class="inside-container"><img loading="lazy" src="images/left-line.svg" alt="" class="image-170">
+            <div class="box-content-border-prim light"><img src="images/ico-1.svg" loading="lazy" alt="" class="svg-icon">
+              <h2 class="screen-shoot-header full-w">personalized workout</h2>
+              <p class="small-paragraph">Design personalized workout plans in seconds.</p>
+            </div><img loading="lazy" src="images/right-line.svg" alt="" class="image-171">
+          </div>
+        </div>
+        <div class="how-it-box">
+          <div class="inside-container"><img loading="lazy" src="images/left-line.svg" alt="" class="image-170">
+            <div class="box-content-border-prim light"><img src="images/ico-2.svg" loading="lazy" alt="" class="svg-icon">
+              <h2 class="screen-shoot-header full-w">training sessions</h2>
+              <p class="small-paragraph">Upload your own training sessions with ease.</p>
+            </div><img loading="lazy" src="images/right-line.svg" alt="" class="image-171">
+          </div>
+        </div>
+        <div class="how-it-box">
+          <div class="inside-container"><img loading="lazy" src="images/left-line.svg" alt="" class="image-170">
+            <div class="box-content-border-prim light"><img src="images/ico-3.svg" loading="lazy" alt="" class="svg-icon">
+              <h2 class="screen-shoot-header full-w">pre-made templates</h2>
+              <p class="small-paragraph">Access pre-made templates for quick setup.</p>
+            </div><img loading="lazy" src="images/right-line.svg" alt="" class="image-171">
+          </div>
+        </div>
+        <div class="how-it-box">
+          <div class="inside-container"><img loading="lazy" src="images/left-line.svg" alt="" class="image-170">
+            <div class="box-content-border-prim light"><img src="images/ico-4.svg" loading="lazy" alt="" class="svg-icon">
+              <h2 class="screen-shoot-header full-w">Track progress</h2>
+              <p class="small-paragraph">Track progress with data-driven insights.</p>
+            </div><img loading="lazy" src="images/right-line.svg" alt="" class="image-171">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="c-cloneable">
+    <div class="dashboard-content mb-40">
+      <h2 class="heading-18"><span class="regular-header">One Dashboard<br>To Make You</span><br>‍<span class="text-span-2">A Supercoach!</span></h2>
+      <p class="body-paragraph">Precision programs, real-time progress tracking, and seamless client management, all in one AI-driven dashboard.</p>
+    </div>
+    <div class="_w-cloneable">
+      <div class="cloneable-area">
+        <div class="c-cards-list">
+          <div data-w-id="dc32e705-139d-6687-56b7-41b16fdbb66d" class="_w-cards-list">
+            <div class="c-card _1">
+              <div class="_w-card"><img loading="lazy" src="images/Section-Edge-TopLift.svg" alt="" class="edge-corner top-left small"><img loading="lazy" src="images/Section-Edge-TopRight.svg" alt="" class="edge-corner top-right small"><img loading="lazy" src="images/Section-Edge-BottomLift.svg" alt="" class="edge-corner bottom-left small"><img loading="lazy" src="images/Section-Edge-BottomRight.svg" alt="" class="edge-corner bottom-right small">
+                <div>
+                  <div class="div-block-28">
+                    <div class="tabs-header">Drag, Drop, Done</div>
+                    <p class="body-paragraph">Every workout plan is automatically saved in the system, making it easy to reuse and customize.</p><img sizes="(max-width: 991px) 80vw, 74vw" srcset="images/db-s-2-p-500.png 500w, images/db-s-2-p-800.png 800w, images/db-s-2.png 916w" alt="" loading="lazy" src="images/db-s-2.png" class="image-166">
+                    <a href="https://app.supercoach.me/admin/#/register" target="_blank" class="icon-area w-inline-block"><img width="98" loading="lazy" alt="" src="images/send-sqaure.svg" class="icon-small"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="c-card _2">
+              <div class="_w-card"><img loading="lazy" src="images/Section-Edge-TopLift.svg" alt="" class="edge-corner top-left small"><img loading="lazy" src="images/Section-Edge-TopRight.svg" alt="" class="edge-corner top-right small"><img loading="lazy" src="images/Section-Edge-BottomLift.svg" alt="" class="edge-corner bottom-left small"><img loading="lazy" src="images/Section-Edge-BottomRight.svg" alt="" class="edge-corner bottom-right small">
+                <div>
+                  <div class="div-block-28">
+                    <div class="tabs-header">Drag, Drop, Done</div>
+                    <p class="body-paragraph">Every workout plan is automatically saved in the system, making it easy to reuse and customize.</p><img sizes="(max-width: 991px) 82vw, 76vw" srcset="images/db-s-2-p-500.png 500w, images/db-s-2-p-800.png 800w, images/db-s-2.png 916w" alt="" loading="lazy" src="images/db-s-2.png" class="image-166">
+                    <a href="https://app.supercoach.me/admin/#/register" target="_blank" class="icon-area w-inline-block"><img width="98" loading="lazy" alt="" src="images/send-sqaure.svg" class="icon-small"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="c-card _3">
+              <div class="_w-card"><img loading="lazy" src="images/Section-Edge-TopLift.svg" alt="" class="edge-corner top-left small"><img loading="lazy" src="images/Section-Edge-TopRight.svg" alt="" class="edge-corner top-right small"><img loading="lazy" src="images/Section-Edge-BottomLift.svg" alt="" class="edge-corner bottom-left small"><img loading="lazy" src="images/Section-Edge-BottomRight.svg" alt="" class="edge-corner bottom-right small">
+                <div>
+                  <div class="div-block-28">
+                    <div class="tabs-header">Drag, Drop, Done</div>
+                    <p class="body-paragraph">Every workout plan is automatically saved in the system, making it easy to reuse and customize.</p><img sizes="(max-width: 991px) 91vw, 84vw" srcset="images/db-s-2-p-500.png 500w, images/db-s-2-p-800.png 800w, images/db-s-2.png 916w" alt="" loading="lazy" src="images/db-s-2.png" class="image-166">
+                    <a href="https://app.supercoach.me/admin/#/register" target="_blank" class="icon-area w-inline-block"><img width="98" loading="lazy" alt="" src="images/send-sqaure.svg" class="icon-small"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="c-card _4">
+              <div class="_w-card"><img loading="lazy" src="images/Section-Edge-TopLift.svg" alt="" class="edge-corner top-left small"><img loading="lazy" src="images/Section-Edge-TopRight.svg" alt="" class="edge-corner top-right small"><img loading="lazy" src="images/Section-Edge-BottomLift.svg" alt="" class="edge-corner bottom-left small"><img loading="lazy" src="images/Section-Edge-BottomRight.svg" alt="" class="edge-corner bottom-right small">
+                <div>
+                  <div class="div-block-28">
+                    <div class="tabs-header">Drag, Drop, Done</div>
+                    <p class="body-paragraph">Every workout plan is automatically saved in the system, making it easy to reuse and customize.</p><img sizes="(max-width: 916px) 100vw, 916px" srcset="images/db-s-2-p-500.png 500w, images/db-s-2-p-800.png 800w, images/db-s-2.png 916w" alt="" loading="lazy" src="images/db-s-2.png" class="image-166">
+                    <a href="https://app.supercoach.me/admin/#/register" target="_blank" class="icon-area w-inline-block"><img width="98" loading="lazy" alt="" src="images/send-sqaure.svg" class="icon-small"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section id="dashboard" class="dashboard-screens sec-padding">
+    <div class="container">
+      <div class="dashboard-view gray"><img src="images/Section-Edge-TopLift.svg" loading="lazy" alt="" class="edge-corner top-left"><img src="images/Section-Edge-TopRight.svg" loading="lazy" alt="" class="edge-corner top-right"><img src="images/Section-Edge-BottomLift.svg" loading="lazy" alt="" class="edge-corner bottom-left"><img src="images/Section-Edge-BottomRight.svg" loading="lazy" alt="" class="edge-corner bottom-right">
+        <div class="tabs-container">
+          <div class="div-block-27">
+            <div class="img-content"><img src="images/dahsboard-1.png" loading="lazy" sizes="(max-width: 780px) 100vw, 780px" srcset="images/dahsboard-1-p-500.png 500w, images/dahsboard-1.png 780w" alt="" class="absolute-left"></div>
+            <div class="content flex-center dark-content">
+              <div id="hero-title" class="text-block-16 pd-top md-text"><span class="text-span-3 dark-text">Your Rules, Your Way –<br>‍</span><span class="text-span-4">Manual or Automatic</span></div>
+              <div class="text-block-15 sub-color">Our technology is ready to empower coaches and fitness facilities to scale their business like never before.</div>
+              <div class="actions pd-top">
+                <a href="https://app.supercoach.me/admin/#/register" target="_blank" class="newprimarybtn dark w-button">Get Started for Free</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="mobile-tabs">
+    <div class="container">
+      <div class="dashboard-content">
+        <h2 class="heading-18"><span class="regular-header">One Dashboard<br>To Make You</span><br>‍<span class="text-span-2">A Supercoach!</span></h2>
+        <p class="body-paragraph">Precision programs, real-time progress tracking, and seamless client management, all in one AI-driven dashboard.</p>
+      </div>
+      <div id="collapse-card" class="dashboard-view-desktop"><img loading="lazy" src="images/Section-Edge-TopLift.svg" alt="" class="edge-corner top-left small"><img loading="lazy" src="images/Section-Edge-TopRight.svg" alt="" class="edge-corner top-right small"><img loading="lazy" src="images/Section-Edge-BottomLift.svg" alt="" class="edge-corner bottom-left small"><img loading="lazy" src="images/Section-Edge-BottomRight.svg" alt="" class="edge-corner bottom-right small">
+        <div class="tabs-header">Create plans once, use them forever</div>
+        <div class="dashboard-image-area open"><img sizes="(max-width: 884px) 100vw, 884px" srcset="images/db-s-1-p-500.png 500w, images/db-s-1-p-800.png 800w, images/db-s-1.png 884w" alt="" loading="lazy" src="images/db-s-1.png" class="image-166">
+          <div class="dashboard-screen-content">
+            <div class="dashboard-content-ex">
+              <p class="body-paragraph">Every workout plan is automatically saved in the system, making it easy to reuse and customize.</p>
+            </div>
+            <a href="https://app.supercoach.me/admin/#/register" target="_blank" class="icon-area w-inline-block"><img width="98" loading="lazy" alt="" src="images/send-sqaure.svg" class="icon-small"></a>
+          </div>
+        </div><img loading="lazy" src="images/chevron-down-g.svg" alt="">
+      </div>
+      <div id="collapse-card" data-w-id="e3089308-d134-0938-4f10-dea90deb0238" class="dashboard-view-desktop"><img src="images/Section-Edge-TopLift.svg" loading="lazy" alt="" class="edge-corner top-left small"><img src="images/Section-Edge-TopRight.svg" loading="lazy" alt="" class="edge-corner top-right small"><img src="images/Section-Edge-BottomLift.svg" loading="lazy" alt="" class="edge-corner bottom-left small"><img src="images/Section-Edge-BottomRight.svg" loading="lazy" alt="" class="edge-corner bottom-right small">
+        <div class="tabs-header">Drag, Drop, Done<br></div>
+        <div class="dashboard-image-area"><img loading="lazy" src="images/db-s-2.png" alt="" sizes="(max-width: 991px) 100vw, 916px" srcset="images/db-s-2-p-500.png 500w, images/db-s-2-p-800.png 800w, images/db-s-2.png 916w" class="image-166">
+          <div class="dashboard-screen-content">
+            <div class="dashboard-content-ex">
+              <p class="body-paragraph">Every workout plan is automatically saved in the system, making it easy to reuse and customize.</p>
+            </div>
+            <a href="https://app.supercoach.me/admin/#/register" target="_blank" class="icon-area w-inline-block"><img width="98" loading="lazy" alt="" src="images/send-sqaure.svg" class="icon-small"></a>
+          </div>
+        </div><img src="images/chevron-down-g.svg" loading="lazy" alt="">
+      </div>
+      <div id="collapse-card" data-w-id="e3089308-d134-0938-4f10-dea90deb0238" class="dashboard-view-desktop"><img src="images/Section-Edge-TopLift.svg" loading="lazy" alt="" class="edge-corner top-left small"><img src="images/Section-Edge-TopRight.svg" loading="lazy" alt="" class="edge-corner top-right small"><img src="images/Section-Edge-BottomLift.svg" loading="lazy" alt="" class="edge-corner bottom-left small"><img src="images/Section-Edge-BottomRight.svg" loading="lazy" alt="" class="edge-corner bottom-right small">
+        <div class="tabs-header">Track Progress, Every % Counts</div>
+        <div class="dashboard-image-area"><img loading="lazy" src="images/db-s-3.png" alt="" sizes="(max-width: 991px) 100vw, 916px" srcset="images/db-s-3-p-500.png 500w, images/db-s-3-p-800.png 800w, images/db-s-3.png 821w" class="image-166">
+          <div class="dashboard-screen-content">
+            <div class="dashboard-content-ex">
+              <p class="body-paragraph">Every workout plan is automatically saved in the system, making it easy to reuse and customize.</p>
+            </div>
+            <a href="https://app.supercoach.me/admin/#/register" target="_blank" class="icon-area w-inline-block"><img width="98" loading="lazy" alt="" src="images/send-sqaure.svg" class="icon-small"></a>
+          </div>
+        </div><img src="images/chevron-down-g.svg" loading="lazy" alt="">
+      </div>
+      <div id="collapse-card" data-w-id="e3089308-d134-0938-4f10-dea90deb0238" class="dashboard-view-desktop"><img src="images/Section-Edge-TopLift.svg" loading="lazy" alt="" class="edge-corner top-left small"><img src="images/Section-Edge-TopRight.svg" loading="lazy" alt="" class="edge-corner top-right small"><img src="images/Section-Edge-BottomLift.svg" loading="lazy" alt="" class="edge-corner bottom-left small"><img src="images/Section-Edge-BottomRight.svg" loading="lazy" alt="" class="edge-corner bottom-right small">
+        <div class="tabs-header">Plan Weeks, Stay on Track</div>
+        <div class="dashboard-image-area"><img loading="lazy" src="images/db-s-4.png" alt="" sizes="(max-width: 991px) 100vw, 916px" srcset="images/db-s-4-p-500.png 500w, images/db-s-4-p-800.png 800w, images/db-s-4.png 884w" class="image-166">
+          <div class="dashboard-screen-content">
+            <div class="dashboard-content-ex">
+              <p class="body-paragraph">Easily organize workouts by week and tweak schedules on the fly. Add, modify, and structure plans to fit any training routine.</p>
+            </div>
+            <a href="https://app.supercoach.me/admin/#/register" target="_blank" class="icon-area w-inline-block"><img width="98" loading="lazy" alt="" src="images/send-sqaure.svg" class="icon-small"></a>
+          </div>
+        </div><img src="images/chevron-down-g.svg" loading="lazy" alt="">
+      </div>
+    </div>
+  </div>
+  <section id="dashboard" class="dashboard-screens sec-padding">
+    <div class="container">
+      <div class="dashboard-view dark-gray"><img src="images/Section-Edge-TopLift.svg" loading="lazy" alt="" class="edge-corner top-left"><img src="images/Section-Edge-TopRight.svg" loading="lazy" alt="" class="edge-corner top-right"><img src="images/Section-Edge-BottomLift.svg" loading="lazy" alt="" class="edge-corner bottom-left"><img src="images/Section-Edge-BottomRight.svg" loading="lazy" alt="" class="edge-corner bottom-right">
+        <div class="tabs-container sub">
+          <div data-current="Tab 1" data-easing="ease" data-duration-in="300" data-duration-out="100" class="tabs-7 w-tabs">
+            <div class="tabs-menu-9 sup-page w-tab-menu">
+              <a data-w-tab="Tab 1" class="db-tab-link w-inline-block w-tab-link w--current">
+                <div class="text-block-62">Create plans once,<br>use them forever</div>
+                <p class="body-paragraph new">Every workout plan is automatically saved in the system, making it easy to reuse and customize.</p>
+              </a>
+              <a data-w-tab="Tab 2" class="db-tab-link w-inline-block w-tab-link">
+                <div class="text-block-59">Drag, Drop, Done</div>
+                <p class="body-paragraph new">Every workout plan is automatically saved in the system, making it easy to reuse and customize.</p>
+              </a>
+              <a data-w-tab="Tab 3" class="db-tab-link w-inline-block w-tab-link">
+                <div class="text-block-59">Track Progress,<br>Every % Counts</div>
+                <p class="body-paragraph new">Every workout plan is automatically saved in the system, making it easy to reuse and customize.</p>
+              </a>
+              <a data-w-tab="Tab 4" class="db-tab-link w-inline-block w-tab-link">
+                <div class="text-block-59">Plan Weeks, Stay<br>on Track</div>
+                <p class="body-paragraph new">Easily organize workouts by week and tweak schedules on the fly. Add, modify, and structure plans to fit any training routine.</p>
+              </a>
+            </div>
+            <div class="tabs-content-6 w-tab-content">
+              <div data-w-tab="Tab 1" class="tab-pane-tab-1-3 w-tab-pane w--tab-active">
+                <div class="dashboard-image-area sup"><img sizes="(max-width: 884px) 100vw, 884px" srcset="images/db-s-1-p-500.png 500w, images/db-s-1-p-800.png 800w, images/db-s-1.png 884w" alt="" src="images/db-s-1.png" loading="lazy" class="image-173"></div>
+              </div>
+              <div data-w-tab="Tab 2" class="w-tab-pane">
+                <div class="dashboard-image-area"><img sizes="100vw" srcset="images/db-s-2-p-500.png 500w, images/db-s-2-p-800.png 800w, images/db-s-2.png 916w" alt="" src="images/db-s-2.png" loading="lazy" class="image-173"></div>
+              </div>
+              <div data-w-tab="Tab 3" class="w-tab-pane">
+                <div class="dashboard-image-area"><img sizes="100vw" srcset="images/db-s-3-p-500.png 500w, images/db-s-3-p-800.png 800w, images/db-s-3.png 821w" alt="" src="images/db-s-3.png" loading="lazy" class="image-173"></div>
+              </div>
+              <div data-w-tab="Tab 4" class="w-tab-pane">
+                <div class="dashboard-image-area"><img sizes="100vw" srcset="images/db-s-4-p-500.png 500w, images/db-s-4-p-800.png 800w, images/db-s-4.png 884w" alt="" src="images/db-s-4.png" loading="lazy" class="image-173"></div>
+              </div>
+            </div>
+          </div>
+          <div class="dashboard-content">
+            <h2 class="heading-18"><span class="regular-header">Design Once. Assign Anytime.</span><br>Automate Your System</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="app" class="mobile-app-screens sec-padding sub">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="heading-18">Customize Workouts with Your Own Exercise Videos</h2>
+        <p class="body-paragraph">Keep Clients Engaged with Unforgettable Workouts</p>
+        <div class="mobile-tabs none">
+          <div id="collapse-card" class="dashboard-view-mob-sec open"><img loading="lazy" src="images/Section-Edge-TopLift.svg" alt="" class="edge-corner top-left small"><img loading="lazy" src="images/Section-Edge-TopRight.svg" alt="" class="edge-corner top-right small"><img loading="lazy" src="images/Section-Edge-BottomLift.svg" alt="" class="edge-corner bottom-left small"><img loading="lazy" src="images/Section-Edge-BottomRight.svg" alt="" class="edge-corner bottom-right small">
+            <div class="tabs-header">Training Programs</div>
+            <div class="dashboard-image-area open">
+              <div class="dashboard-screen-content">
+                <div class="dashboard-content-ex">
+                  <p class="body-paragraph dark">A clear training experience for both beginners &amp; athletes</p>
+                </div>
+              </div><img sizes="(max-width: 1002px) 100vw, 1002px" srcset="images/001---Training-p-500.png 500w, images/001---Training-p-800.png 800w, images/001---Training.png 1002w" alt="" loading="lazy" src="images/001---Training.png" class="image-166">
+            </div><img loading="lazy" src="images/chevron-down-g.svg" alt="" class="arrow-down">
+          </div>
+          <div id="collapse-card" class="dashboard-view-mob-sec"><img loading="lazy" src="images/Section-Edge-TopLift.svg" alt="" class="edge-corner top-left small"><img loading="lazy" src="images/Section-Edge-TopRight.svg" alt="" class="edge-corner top-right small"><img loading="lazy" src="images/Section-Edge-BottomLift.svg" alt="" class="edge-corner bottom-left small"><img loading="lazy" src="images/Section-Edge-BottomRight.svg" alt="" class="edge-corner bottom-right small">
+            <div class="tabs-header">Nutrition Meals</div>
+            <div class="dashboard-image-area">
+              <div class="dashboard-screen-content">
+                <div class="dashboard-content-ex">
+                  <p class="body-paragraph dark">Hyper-personalized &amp; convenient meal plans for all</p>
+                </div>
+              </div><img src="images/001---Nutrition.png" loading="lazy" alt="" sizes="(max-width: 1003px) 100vw, 1003px" srcset="images/001---Nutrition-p-500.png 500w, images/001---Nutrition-p-800.png 800w, images/001---Nutrition.png 1003w" class="image-166">
+            </div><img src="images/chevron-down-g.svg" loading="lazy" alt="" class="arrow-down">
+          </div>
+          <div id="collapse-card" class="dashboard-view-mob-sec"><img loading="lazy" src="images/Section-Edge-TopLift.svg" alt="" class="edge-corner top-left small"><img loading="lazy" src="images/Section-Edge-TopRight.svg" alt="" class="edge-corner top-right small"><img loading="lazy" src="images/Section-Edge-BottomLift.svg" alt="" class="edge-corner bottom-left small"><img loading="lazy" src="images/Section-Edge-BottomRight.svg" alt="" class="edge-corner bottom-right small">
+            <div class="tabs-header">In-App Messaging</div>
+            <div class="dashboard-image-area">
+              <div class="dashboard-screen-content">
+                <div class="dashboard-content-ex">
+                  <p class="body-paragraph dark">Intuitive in-app messaging for communication &amp; support</p>
+                </div>
+              </div><img src="images/001---Smart-Connect.png" loading="lazy" alt="" sizes="(max-width: 1002px) 100vw, 1002px" srcset="images/001---Smart-Connect-p-500.png 500w, images/001---Smart-Connect-p-800.png 800w, images/001---Smart-Connect.png 1002w" class="image-166">
+            </div><img src="images/chevron-down-g.svg" loading="lazy" alt="" class="arrow-down">
+          </div>
+          <div id="collapse-card" class="dashboard-view-mob-sec"><img loading="lazy" src="images/Section-Edge-TopLift.svg" alt="" class="edge-corner top-left small"><img loading="lazy" src="images/Section-Edge-TopRight.svg" alt="" class="edge-corner top-right small"><img loading="lazy" src="images/Section-Edge-BottomLift.svg" alt="" class="edge-corner bottom-left small"><img loading="lazy" src="images/Section-Edge-BottomRight.svg" alt="" class="edge-corner bottom-right small">
+            <div class="tabs-header">Progress Tracking</div>
+            <div class="dashboard-image-area">
+              <div class="dashboard-screen-content">
+                <div class="dashboard-content-ex">
+                  <p class="body-paragraph dark">Powerful training, nutrition, &amp; body measurements logging</p>
+                </div>
+              </div><img src="images/001---Smart-Connect-1.png" loading="lazy" alt="" sizes="(max-width: 1003px) 100vw, 1003px" srcset="images/001---Smart-Connect-1-p-500.png 500w, images/001---Smart-Connect-1-p-800.png 800w, images/001---Smart-Connect-1.png 1003w" class="image-166">
+            </div><img src="images/chevron-down-g.svg" loading="lazy" alt="" class="arrow-down">
+          </div>
+          <div id="collapse-card" class="dashboard-view-mob-sec"><img loading="lazy" src="images/Section-Edge-TopLift.svg" alt="" class="edge-corner top-left small"><img loading="lazy" src="images/Section-Edge-TopRight.svg" alt="" class="edge-corner top-right small"><img loading="lazy" src="images/Section-Edge-BottomLift.svg" alt="" class="edge-corner bottom-left small"><img loading="lazy" src="images/Section-Edge-BottomRight.svg" alt="" class="edge-corner bottom-right small">
+            <div class="tabs-header">Daily Task Reminders</div>
+            <div class="dashboard-image-area">
+              <div class="dashboard-screen-content">
+                <div class="dashboard-content-ex">
+                  <p class="body-paragraph dark">ll-In-One Holistic Coaching Tools for Lasting Lifestyle</p>
+                </div>
+              </div><img src="images/Task-Reminder.png" loading="lazy" alt="" sizes="(max-width: 1003px) 100vw, 1003px" srcset="images/Task-Reminder-p-500.png 500w, images/Task-Reminder-p-800.png 800w, images/Task-Reminder.png 1003w" class="image-166">
+            </div><img src="images/chevron-down-g.svg" loading="lazy" alt="" class="arrow-down">
+          </div>
+        </div>
+      </div>
+      <div class="tabs-area">
+        <div data-current="Tab 1" data-easing="ease" data-duration-in="300" data-duration-out="100" class="tabs-8 w-tabs">
+          <div class="tabs-menu-10 w-tab-menu">
+            <a data-w-tab="Tab 1" class="app-tab sub w-inline-block w-tab-link w--current">
+              <div class="app-tab-header">Your Personal Demo Library</div>
+              <p class="app-tab-caption">Upload and store your own instructional videos, giving clients a unique, branded experience they won’t find anywhere else.</p><img loading="lazy" src="images/Section-Edge-BottomLift.svg" alt="" class="edge-corner bottom-left sm-edge none"><img loading="lazy" src="images/Section-Edge-TopLift.svg" alt="" class="edge-corner top-left sm-edge none">
+            </a>
+            <a data-w-tab="Tab 2" class="app-tab sub w-inline-block w-tab-link">
+              <div class="app-tab-header">Instagram-Style Workout Stories</div>
+              <p class="app-tab-caption">Hyper-personaliDeliver workouts in a fun, swipeable format, just like Instagram stories that keeping clients engaged like never before.zed &amp; convenient meal plans for all</p>
+            </a>
+            <a data-w-tab="Tab 5" class="app-tab sub w-inline-block w-tab-link">
+              <div class="app-tab-header">Dual-Language Guidance</div>
+              <p class="app-tab-caption">Every demo comes with exercise descriptions in both Arabic and English, ensuring crystal-clear instructions for all.</p><img loading="lazy" src="images/Section-Edge-BottomRight.svg" alt="" class="edge-corner bottom-right sm-edge none"><img loading="lazy" src="images/Section-Edge-TopRight.svg" alt="" class="edge-corner top-right sm-edge none">
+            </a>
+          </div>
+          <div class="tabs-content-7 w-tab-content">
+            <div data-w-tab="Tab 1" class="w-tab-pane w--tab-active">
+              <div class="mob-sub"><img sizes="(max-width: 677px) 100vw, 677px" srcset="images/mob-0-1-p-500.png 500w, images/mob-0-1.png 677w" alt="" src="images/mob-0-1.png" loading="lazy" class="mob-img desk-only"></div>
+            </div>
+            <div data-w-tab="Tab 2" class="w-tab-pane">
+              <div class="mob-sub"><img sizes="100vw" srcset="images/mob-0-2-p-500.png 500w, images/mob-0-2-p-800.png 800w, images/mob-0-2.png 835w" alt="" src="images/mob-0-2.png" loading="lazy" class="mob-img desk-only"></div>
+            </div>
+            <div data-w-tab="Tab 5" class="w-tab-pane">
+              <div class="mob-sub"><img sizes="100vw" srcset="images/mob-0-3-p-500.png 500w, images/mob-0-3-p-800.png 800w, images/mob-0-3.png 1045w" alt="" src="images/mob-0-3.png" loading="lazy" class="mob-img desk-only"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="dashboard" class="dashboard-screens sec-padding sub">
+    <div class="container wider">
+      <div class="div-block-27 gap-24">
+        <div class="content flex-center dark-content">
+          <div id="hero-title" class="text-block-16 pd-top md-text bold"><span class="text-span-3 dark-text bold">Access 1,500+ Pre-Made<br>Exercise Templates</span></div>
+          <div class="text-block-15 sub-color">Choose from our massive library and build effective workouts faster.</div>
+          <div class="actions pd-top">
+            <a href="https://app.supercoach.me/admin/#/register" target="_blank" class="newprimarybtn dark w-button">Get Started for Free</a>
+          </div>
+        </div>
+        <div class="scroller">
+          <div style="-webkit-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="slider-wrap">
+            <div class="scroll-card"><img src="images/Screenshot-2025-08-06-at-11.58.36-AM-1.png" loading="lazy" sizes="(max-width: 1500px) 100vw, 1500px" srcset="images/Screenshot-2025-08-06-at-11.58.36-AM-1-p-500.png 500w, images/Screenshot-2025-08-06-at-11.58.36-AM-1-p-800.png 800w, images/Screenshot-2025-08-06-at-11.58.36-AM-1-p-1080.png 1080w, images/Screenshot-2025-08-06-at-11.58.36-AM-1.png 1500w" alt="" class="image-174">
+              <div class="text-block-63">cable st. bar trap shrug<br></div>
+            </div>
+            <div class="scroll-card"><img src="images/Screenshot-2025-08-06-at-11.59.50-AM-1.png" loading="lazy" sizes="(max-width: 1500px) 100vw, 1500px" srcset="images/Screenshot-2025-08-06-at-11.59.50-AM-1-p-500.png 500w, images/Screenshot-2025-08-06-at-11.59.50-AM-1-p-800.png 800w, images/Screenshot-2025-08-06-at-11.59.50-AM-1-p-1080.png 1080w, images/Screenshot-2025-08-06-at-11.59.50-AM-1.png 1500w" alt="" class="image-174">
+              <div class="text-block-63">seated close grip shoulder press</div>
+            </div>
+            <div class="scroll-card"><img src="images/Screenshot-2025-08-06-at-1.55.22-PM-1.png" loading="lazy" sizes="(max-width: 1515px) 100vw, 1515px" srcset="images/Screenshot-2025-08-06-at-1.55.22-PM-1-p-500.png 500w, images/Screenshot-2025-08-06-at-1.55.22-PM-1-p-800.png 800w, images/Screenshot-2025-08-06-at-1.55.22-PM-1-p-1080.png 1080w, images/Screenshot-2025-08-06-at-1.55.22-PM-1.png 1515w" alt="" class="image-174">
+              <div class="text-block-63">cable grip single arm bicep curl</div>
+            </div>
+            <div class="scroll-card"><img src="images/Screenshot-2025-08-06-at-12.03.01-PM-1.png" loading="lazy" sizes="(max-width: 1500px) 100vw, 1500px" srcset="images/Screenshot-2025-08-06-at-12.03.01-PM-1-p-500.png 500w, images/Screenshot-2025-08-06-at-12.03.01-PM-1-p-800.png 800w, images/Screenshot-2025-08-06-at-12.03.01-PM-1-p-1080.png 1080w, images/Screenshot-2025-08-06-at-12.03.01-PM-1.png 1500w" alt="" class="image-174">
+              <div class="text-block-63">Reverse Curls With The EZ Bar</div>
+            </div>
+            <div class="scroll-card"><img src="images/Screenshot-2025-08-06-at-12.05.17-PM-1.png" loading="lazy" sizes="(max-width: 1500px) 100vw, 1500px" srcset="images/Screenshot-2025-08-06-at-12.05.17-PM-1-p-500.png 500w, images/Screenshot-2025-08-06-at-12.05.17-PM-1-p-800.png 800w, images/Screenshot-2025-08-06-at-12.05.17-PM-1-p-1080.png 1080w, images/Screenshot-2025-08-06-at-12.05.17-PM-1.png 1500w" alt="" class="image-174">
+              <div class="text-block-63">cable rope triceps push down</div>
+            </div>
+            <div class="scroll-card"><img src="images/Burpees-exercises.png" loading="lazy" alt="" class="image-174">
+              <div class="text-block-63">Burpees exercises</div>
+            </div>
+            <div class="scroll-card"><img src="images/Triceps-Dips-exercises.png" loading="lazy" alt="" class="image-174">
+              <div class="text-block-63">Triceps Dips exercises</div>
+            </div>
+            <div class="scroll-card"><img src="images/Push-Ups-exercises-2.png" loading="lazy" alt="" class="image-174">
+              <div class="text-block-63">Bicycle Crunches exercises</div>
+            </div>
+            <div class="scroll-card"><img src="images/Push-Ups-exercises-3.png" loading="lazy" alt="" class="image-174">
+              <div class="text-block-63">Jumping Jacks exercises</div>
+            </div>
+            <div class="scroll-card"><img src="images/Bench-Press-exercises.png" loading="lazy" alt="" class="image-174">
+              <div class="text-block-63">Push-Ups exercises</div>
+            </div>
+            <div class="scroll-card"><img src="images/Deadlifts-exercises.png" loading="lazy" alt="" class="image-174">
+              <div class="text-block-63">Bench Press exercises</div>
+            </div>
+            <div class="scroll-card"><img src="images/Push-Ups-exercises-3.png" loading="lazy" alt="" class="image-174">
+              <div class="text-block-63">Deadlifts exercises</div>
+            </div>
+            <div class="scroll-card"><img src="images/Bench-Press-exercises.png" loading="lazy" alt="" class="image-174">
+              <div class="text-block-63">Bicep Curls exercises</div>
+            </div>
+            <div class="scroll-card"><img src="images/Deadlifts-exercises.png" loading="lazy" alt="" class="image-174">
+              <div class="text-block-63">Mountain Climbers exercises</div>
+            </div>
+          </div>
+          <div data-w-id="9462eb2e-f10b-28f9-96dc-d6d55066703a" style="-webkit-transform:translate3d(-2470px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(-2470px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(-2470px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(-2470px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="slider-wrap-two">
+            <div class="scroll-card"><img src="images/Screenshot-2025-08-06-at-12.11.37-PM-1.png" loading="lazy" sizes="(max-width: 1500px) 100vw, 1500px" srcset="images/Screenshot-2025-08-06-at-12.11.37-PM-1-p-500.png 500w, images/Screenshot-2025-08-06-at-12.11.37-PM-1-p-800.png 800w, images/Screenshot-2025-08-06-at-12.11.37-PM-1-p-1080.png 1080w, images/Screenshot-2025-08-06-at-12.11.37-PM-1.png 1500w" alt="" class="image-174">
+              <div class="text-block-63">Seated Jackknife </div>
+            </div>
+            <div class="scroll-card"><img src="images/Screenshot-2025-08-06-at-12.09.50-PM-1.png" loading="lazy" sizes="(max-width: 1500px) 100vw, 1500px" srcset="images/Screenshot-2025-08-06-at-12.09.50-PM-1-p-500.png 500w, images/Screenshot-2025-08-06-at-12.09.50-PM-1-p-800.png 800w, images/Screenshot-2025-08-06-at-12.09.50-PM-1-p-1080.png 1080w, images/Screenshot-2025-08-06-at-12.09.50-PM-1.png 1500w" alt="" class="image-174">
+              <div class="text-block-63">machine chest butterfly</div>
+            </div>
+            <div class="scroll-card"><img src="images/Screenshot-2025-08-06-at-12.08.23-PM-1.png" loading="lazy" sizes="(max-width: 1500px) 100vw, 1500px" srcset="images/Screenshot-2025-08-06-at-12.08.23-PM-1-p-500.png 500w, images/Screenshot-2025-08-06-at-12.08.23-PM-1-p-800.png 800w, images/Screenshot-2025-08-06-at-12.08.23-PM-1-p-1080.png 1080w, images/Screenshot-2025-08-06-at-12.08.23-PM-1.png 1500w" alt="" class="image-174">
+              <div class="text-block-63">Goblet Squat</div>
+            </div>
+            <div class="scroll-card"><img src="images/Screenshot-2025-08-06-at-12.12.52-PM-1.png" loading="lazy" sizes="(max-width: 1398px) 100vw, 1398px" srcset="images/Screenshot-2025-08-06-at-12.12.52-PM-1-p-500.png 500w, images/Screenshot-2025-08-06-at-12.12.52-PM-1-p-800.png 800w, images/Screenshot-2025-08-06-at-12.12.52-PM-1-p-1080.png 1080w, images/Screenshot-2025-08-06-at-12.12.52-PM-1.png 1398w" alt="" class="image-174">
+              <div class="text-block-63">Plank exercises</div>
+            </div>
+            <div class="scroll-card"><img src="images/Screenshot-2025-08-06-at-12.16.51-PM-1.png" loading="lazy" sizes="(max-width: 1500px) 100vw, 1500px" srcset="images/Screenshot-2025-08-06-at-12.16.51-PM-1-p-500.png 500w, images/Screenshot-2025-08-06-at-12.16.51-PM-1-p-800.png 800w, images/Screenshot-2025-08-06-at-12.16.51-PM-1-p-1080.png 1080w, images/Screenshot-2025-08-06-at-12.16.51-PM-1.png 1500w" alt="" class="image-174">
+              <div class="text-block-63">Walking Lunges To Barbell Shoulder Press </div>
+            </div>
+            <div class="scroll-card"><img src="images/Burpees-exercises.png" loading="lazy" alt="" class="image-174">
+              <div class="text-block-63">Burpees exercises</div>
+            </div>
+            <div class="scroll-card"><img src="images/Triceps-Dips-exercises.png" loading="lazy" alt="" class="image-174">
+              <div class="text-block-63">Triceps Dips exercises</div>
+            </div>
+            <div class="scroll-card"><img src="images/Push-Ups-exercises-2.png" loading="lazy" alt="" class="image-174">
+              <div class="text-block-63">Bicycle Crunches exercises</div>
+            </div>
+            <div class="scroll-card"><img src="images/Push-Ups-exercises-3.png" loading="lazy" alt="" class="image-174">
+              <div class="text-block-63">Jumping Jacks exercises</div>
+            </div>
+            <div class="scroll-card"><img src="images/Bench-Press-exercises.png" loading="lazy" alt="" class="image-174">
+              <div class="text-block-63">Push-Ups exercises</div>
+            </div>
+            <div class="scroll-card"><img src="images/Deadlifts-exercises.png" loading="lazy" alt="" class="image-174">
+              <div class="text-block-63">Bench Press exercises</div>
+            </div>
+            <div class="scroll-card"><img src="images/Push-Ups-exercises-3.png" loading="lazy" alt="" class="image-174">
+              <div class="text-block-63">Deadlifts exercises</div>
+            </div>
+            <div class="scroll-card"><img src="images/Bench-Press-exercises.png" loading="lazy" alt="" class="image-174">
+              <div class="text-block-63">Bicep Curls exercises</div>
+            </div>
+            <div class="scroll-card"><img src="images/Deadlifts-exercises.png" loading="lazy" alt="" class="image-174">
+              <div class="text-block-63">Mountain Climbers exercises</div>
+            </div>
+          </div>
+          <div style="-webkit-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="slider-wrap">
+            <div class="scroll-card"><img src="images/Screenshot-2025-08-06-at-12.17.43-PM-1.png" loading="lazy" sizes="(max-width: 1500px) 100vw, 1500px" srcset="images/Screenshot-2025-08-06-at-12.17.43-PM-1-p-500.png 500w, images/Screenshot-2025-08-06-at-12.17.43-PM-1-p-800.png 800w, images/Screenshot-2025-08-06-at-12.17.43-PM-1-p-1080.png 1080w, images/Screenshot-2025-08-06-at-12.17.43-PM-1.png 1500w" alt="" class="image-174">
+              <div class="text-block-63">Dumbbell Concentration Curls </div>
+            </div>
+            <div class="scroll-card"><img src="images/Screenshot-2025-08-06-at-1.51.52-PM-1.png" loading="lazy" sizes="(max-width: 1515px) 100vw, 1515px" srcset="images/Screenshot-2025-08-06-at-1.51.52-PM-1-p-500.png 500w, images/Screenshot-2025-08-06-at-1.51.52-PM-1-p-800.png 800w, images/Screenshot-2025-08-06-at-1.51.52-PM-1-p-1080.png 1080w, images/Screenshot-2025-08-06-at-1.51.52-PM-1.png 1515w" alt="" class="image-174">
+              <div class="text-block-63">Machine Leg Extension </div>
+            </div>
+            <div class="scroll-card"><img src="images/Screenshot-2025-08-06-at-12.22.43-PM-1.png" loading="lazy" sizes="(max-width: 1500px) 100vw, 1500px" srcset="images/Screenshot-2025-08-06-at-12.22.43-PM-1-p-500.png 500w, images/Screenshot-2025-08-06-at-12.22.43-PM-1-p-800.png 800w, images/Screenshot-2025-08-06-at-12.22.43-PM-1-p-1080.png 1080w, images/Screenshot-2025-08-06-at-12.22.43-PM-1.png 1500w" alt="" class="image-174">
+              <div class="text-block-63">Dumbbell Shoulder Dual Upright row</div>
+            </div>
+            <div class="scroll-card"><img src="images/Screenshot-2025-08-06-at-1.06.43-PM-1.png" loading="lazy" sizes="(max-width: 1500px) 100vw, 1500px" srcset="images/Screenshot-2025-08-06-at-1.06.43-PM-1-p-500.png 500w, images/Screenshot-2025-08-06-at-1.06.43-PM-1-p-800.png 800w, images/Screenshot-2025-08-06-at-1.06.43-PM-1-p-1080.png 1080w, images/Screenshot-2025-08-06-at-1.06.43-PM-1.png 1500w" alt="" class="image-174">
+              <div class="text-block-63">Cable Rope Shoulder Face Pulley </div>
+            </div>
+            <div class="scroll-card"><img src="images/Screenshot-2025-08-06-at-12.33.00-PM-1.png" loading="lazy" sizes="(max-width: 1500px) 100vw, 1500px" srcset="images/Screenshot-2025-08-06-at-12.33.00-PM-1-p-500.png 500w, images/Screenshot-2025-08-06-at-12.33.00-PM-1-p-800.png 800w, images/Screenshot-2025-08-06-at-12.33.00-PM-1-p-1080.png 1080w, images/Screenshot-2025-08-06-at-12.33.00-PM-1.png 1500w" alt="" class="image-174">
+              <div class="text-block-63">Dumbbell Leg Sumo Squat</div>
+            </div>
+            <div class="scroll-card"><img src="images/Burpees-exercises.png" loading="lazy" alt="" class="image-174">
+              <div class="text-block-63">Burpees exercises</div>
+            </div>
+            <div class="scroll-card"><img src="images/Triceps-Dips-exercises.png" loading="lazy" alt="" class="image-174">
+              <div class="text-block-63">Triceps Dips exercises</div>
+            </div>
+            <div class="scroll-card"><img src="images/Push-Ups-exercises-2.png" loading="lazy" alt="" class="image-174">
+              <div class="text-block-63">Bicycle Crunches exercises</div>
+            </div>
+            <div class="scroll-card"><img src="images/Push-Ups-exercises-3.png" loading="lazy" alt="" class="image-174">
+              <div class="text-block-63">Jumping Jacks exercises</div>
+            </div>
+            <div class="scroll-card"><img src="images/Bench-Press-exercises.png" loading="lazy" alt="" class="image-174">
+              <div class="text-block-63">Push-Ups exercises</div>
+            </div>
+            <div class="scroll-card"><img src="images/Deadlifts-exercises.png" loading="lazy" alt="" class="image-174">
+              <div class="text-block-63">Bench Press exercises</div>
+            </div>
+            <div class="scroll-card"><img src="images/Push-Ups-exercises-3.png" loading="lazy" alt="" class="image-174">
+              <div class="text-block-63">Deadlifts exercises</div>
+            </div>
+            <div class="scroll-card"><img src="images/Bench-Press-exercises.png" loading="lazy" alt="" class="image-174">
+              <div class="text-block-63">Bicep Curls exercises</div>
+            </div>
+            <div class="scroll-card"><img src="images/Deadlifts-exercises.png" loading="lazy" alt="" class="image-174">
+              <div class="text-block-63">Mountain Climbers exercises</div>
+            </div>
+          </div>
+          <div class="overlay white right"></div>
+          <div class="overlay white"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="footer" class="new-footer-pri dev-center">
+    <div class="w-layout-blockcontainer container dev-center open-width full-w-footer w-container">
+      <div class="content flex-h">
+        <div class="announce-list text-rtl">
+          <div class="text-block-57">Try it for free</div>
+          <h2 class="mg-b-20">Join us whenever you’re ready,<br>wherever you are!</h2>
+          <div class="text-block-56">Start Building Your Dream Business Today.<br>We are rolling out our service early for a limited number of trainers</div>
+          <a href="https://app.supercoach.me/admin/#/register" target="_blank" class="newprimarybtn w-button">Get Started for Free</a>
+        </div><img width="522" sizes="(max-width: 767px) 100vw, 522px" alt="" src="images/cover-00.png" loading="lazy" srcset="images/cover-00-p-500.png 500w, images/cover-00-p-800.png 800w, images/cover-00-p-1080.png 1080w, images/cover-00-p-1600.png 1600w, images/cover-00-p-2000.png 2000w, images/cover-00-p-2600.png 2600w, images/cover-00-p-3200.png 3200w, images/cover-00.png 3438w" class="image-144"><img src="images/Section-Edge-TopRight.svg" loading="lazy" alt="" class="edge-corner top-right"><img src="images/Section-Edge-TopLift.svg" loading="lazy" alt="" class="edge-corner top-left">
+      </div>
+      <section class="new-footer">
+        <div class="w-layout-blockcontainer container w-container"></div>
+        <div class="about"><img loading="lazy" src="images/supercoach-dark.svg" alt="">
+          <p class="paragraph-4">Our technology has assisted thousands of customers in achieving<br>their fitness goals, and now it is at your disposal to help you scale.</p>
+          <div class="text-block-22">Copyright © 2024 SuperCoach. All Rights Reserved.</div>
+        </div>
+        <div class="div-block-5">
+          <a href="privacypolicy.html" target="_blank" class="link-solid">Privacy Policy</a>
+          <a href="termsandconditions.html" target="_blank" class="link-solid">Terms &amp; Conditions</a>
+        </div><img src="images/Section-Edge-TopRight.svg" loading="lazy" alt="" class="edge-corner top-right display-none"><img src="images/Section-Edge-TopLift.svg" loading="lazy" alt="" class="edge-corner top-left display-none"><img src="images/Section-Edge-BottomRight.svg" loading="lazy" alt="" class="edge-corner bottom-right display-none"><img src="images/Section-Edge-BottomLift.svg" loading="lazy" alt="" class="edge-corner bottom-left display-none">
+      </section>
+    </div>
+  </section>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6576f08a4bd19e9efe88b0ca" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+  <script>
+  window.intercomSettings = {
+    api_base: "https://api-iam.intercom.io",
+    app_id: "epc9u95z",
+  };
+</script>
+  <script>
+  // We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/epc9u95z'
+  (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/epc9u95z';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(document.readyState==='complete'){l();}else if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
+</script>
+  <script type="text/javascript">
+  //GA Event Tracker Script. Licensed under MIT. Free for any use by all. Written by Paul Seal from codeshare.co.uk
+  // Get the category, action and label from the element and send it to GA. The action is optional, because mostly it will be a click event.
+  var trackClickEvent = function () {
+    var eventCategory = this.getAttribute("data-event-category");
+    var eventAction = this.getAttribute("data-event-action");
+    var eventLabel = this.getAttribute("data-event-label");
+    var eventValue = this.getAttribute("data-event-value");
+    ga('send', 'event', eventCategory, (eventAction != undefined && eventAction != '' ? eventAction : 'click'), eventLabel, eventValue);
+  };
+  // Find all of the elements on the page which have the class 'ga-event'
+  var elementsToTrack = document.getElementsByClassName("ga-event");
+  // Add an event listener to each of the elements you found
+  var elementsToTrackLength = elementsToTrack.length;
+  for (var i = 0; i < elementsToTrackLength; i++) {
+    elementsToTrack[i].addEventListener('click', trackClickEvent, false);
+  }
+  </script>
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Get the lang-name element in the navbar
+    var langName = document.getElementById('lang-name');
+    // Check if the document direction is RTL (for Arabic)
+    if (document.documentElement.getAttribute('dir') === 'rtl') {
+      langName.textContent = 'اللغة العربية'; // Change this to the desired Arabic text
+    } else {
+      langName.textContent = 'English'; // Change this to the desired English text
+    }
+  });
+</script>
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Check if Intercom is loaded
+    if (typeof Intercom !== 'undefined') {
+      // Get the button by ID
+      var openChatButton = document.getElementById('open-chat');
+      // Add an event listener to the button to trigger the chat
+      openChatButton.addEventListener('click', function() {
+        Intercom('show'); // This opens the Intercom chat
+      });
+    }
+  });
+</script>
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const triggers = document.querySelectorAll(".dashboard-view-desktop");
+    triggers.forEach((trigger) => {
+      trigger.addEventListener("click", function () {
+        const currentContent = trigger.querySelector(".dashboard-image-area");
+        const isOpen = window.getComputedStyle(currentContent).display === "flex";
+        // Collapse all other cards
+        document.querySelectorAll(".dashboard-view-desktop").forEach((card) => {
+          const content = card.querySelector(".dashboard-image-area");
+          const arrow = card.querySelector(".arrow-down");
+          if (content) content.style.display = "none";
+          if (arrow) arrow.style.transform = "rotateX(0deg)";
+        });
+        // Expand clicked card if not already open
+        if (!isOpen) {
+          currentContent.style.display = "flex";
+          const arrow = trigger.querySelector(".arrow-down");
+          if (arrow) arrow.style.transform = "rotateX(180deg)";
+        }
+      });
+    });
+  });
+</script>
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const triggers = document.querySelectorAll(".dashboard-view-mob-sec");
+    triggers.forEach((trigger) => {
+      trigger.addEventListener("click", function () {
+        const currentContent = trigger.querySelector(".dashboard-image-area");
+        const isOpen = window.getComputedStyle(currentContent).display === "flex";
+        // Collapse all cards
+        document.querySelectorAll(".dashboard-view-mob-sec").forEach((card) => {
+          const content = card.querySelector(".dashboard-image-area");
+          const tabsHeader = card.querySelector(".tabs-header");
+          const arrow = card.querySelector(".arrow-down");
+          const paragraph = card.querySelector(".body-paragraph");
+          if (content) content.style.display = "none";
+          card.style.backgroundColor = "rgb(26, 26, 26)";
+          card.style.color = "#ffffff";
+          if (tabsHeader) tabsHeader.style.color = "#ffffff";
+          if (arrow) arrow.style.transform = "rotateX(0deg)";
+          if (paragraph) paragraph.style.color = "#ffffff";
+        });
+        // Expand clicked card
+        if (!isOpen) {
+          currentContent.style.display = "flex";
+          trigger.style.backgroundColor = "rgb(167, 248, 64)";
+          trigger.style.color = "#000000"; // كل النصوص داخل العنصر تصبح داكنة
+          const tabsHeader = trigger.querySelector(".tabs-header");
+          const arrow = trigger.querySelector(".arrow-down");
+          const paragraph = trigger.querySelector(".body-paragraph");
+          if (tabsHeader) tabsHeader.style.color = "#000000";
+          if (arrow) arrow.style.transform = "rotateX(180deg)";
+          if (paragraph) paragraph.style.color = "#000000";
+        }
+      });
+    });
+  });
+</script>
+</body>
+</html>
