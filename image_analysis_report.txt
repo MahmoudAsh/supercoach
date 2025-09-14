@@ -1,0 +1,523 @@
+SUPERCOACH IMAGE ANALYSIS REPORT
+========================================
+
+Total HTML files analyzed: 7
+Total images referenced: 80
+Total images in folder: 376
+Used images: 79
+Unused images: 297
+
+HTML FILES AND THEIR IMAGES:
+------------------------------
+
+workout.html:
+  - 001---Nutrition.png
+  - 001---Smart-Connect-1.png
+  - 001---Smart-Connect.png
+  - 001---Training.png
+  - Bench-Press-exercises.png
+  - Burpees-exercises.png
+  - Deadlifts-exercises.png
+  - Push-Ups-exercises-2.png
+  - Push-Ups-exercises-3.png
+  - Screenshot-2025-08-06-at-1.06.43-PM-1.png
+  - Screenshot-2025-08-06-at-1.51.52-PM-1.png
+  - Screenshot-2025-08-06-at-1.55.22-PM-1.png
+  - Screenshot-2025-08-06-at-11.58.36-AM-1.png
+  - Screenshot-2025-08-06-at-11.59.50-AM-1.png
+  - Screenshot-2025-08-06-at-12.03.01-PM-1.png
+  - Screenshot-2025-08-06-at-12.05.17-PM-1.png
+  - Screenshot-2025-08-06-at-12.08.23-PM-1.png
+  - Screenshot-2025-08-06-at-12.09.50-PM-1.png
+  - Screenshot-2025-08-06-at-12.11.37-PM-1.png
+  - Screenshot-2025-08-06-at-12.12.52-PM-1.png
+  - Screenshot-2025-08-06-at-12.16.51-PM-1.png
+  - Screenshot-2025-08-06-at-12.17.43-PM-1.png
+  - Screenshot-2025-08-06-at-12.22.43-PM-1.png
+  - Screenshot-2025-08-06-at-12.33.00-PM-1.png
+  - Section-Edge-BottomLift.svg
+  - Section-Edge-BottomRight.svg
+  - Section-Edge-TopLift.svg
+  - Section-Edge-TopRight.svg
+  - Subtract-1.svg
+  - Subtract.svg
+  - Task-Reminder.png
+  - Triceps-Dips-exercises.png
+  - chevron-down-g.svg
+  - cover-00.png
+  - dahsboard-1.png
+  - db-s-1.png
+  - db-s-2.png
+  - db-s-3.png
+  - db-s-4.png
+  - favicon.png
+  - ico-1.svg
+  - ico-2.svg
+  - ico-3.svg
+  - ico-4.svg
+  - left-line.svg
+  - mob-0-1.png
+  - mob-0-2.png
+  - mob-0-3.png
+  - right-line.svg
+  - send-sqaure.svg
+  - sup-logo.svg
+  - supercoach-dark.svg
+  - webclip.png
+  - workout-header.png
+
+index.html:
+  - 001---Nutrition.png
+  - 001---Smart-Connect-1.png
+  - 001---Smart-Connect.png
+  - 001---Task-Reminder.png
+  - 001---Training.png
+  - Build-Custom-Workout-Programs.png
+  - Design-Tailored-Nutrition-Plans.png
+  - Instant-Client-Feedback.png
+  - Manage-Smarter-Train-Better.png
+  - Navbar-Edge-Lift.svg
+  - Navbar-Edge-Right-.svg
+  - Section-Edge-BottomLift.svg
+  - Section-Edge-BottomRight.svg
+  - Section-Edge-TopLift.svg
+  - Section-Edge-TopRight.svg
+  - Star-rating.svg
+  - Task-Reminder.png
+  - Team--Branch-Management.png
+  - blue-light-shadow.png
+  - check-icon.svg
+  - chevron-down-g.svg
+  - client.png
+  - cover-00.png
+  - favicon.png
+  - image-1.png
+  - image-1_1.png
+  - image.png
+  - left-edge.svg
+  - payments.png
+  - program.png
+  - progress.png
+  - right-edge.svg
+  - send-sqaure.svg
+  - supercoach-dark-logo.svg
+  - supercoach-dark.svg
+  - user-image.png
+  - webclip.png
+
+article.html:
+  - favicon.png
+  - supercoach-dark.png
+  - webclip.png
+
+404.html:
+  - favicon.png
+  - webclip.png
+
+privacypolicy.html:
+  - favicon.png
+  - supercoach-dark.svg
+  - webclip.png
+
+termsandconditions.html:
+  - favicon.png
+  - supercoach-dark.svg
+  - webclip.png
+
+pricing-plans.html:
+  - Arrow_1.svg
+  - Section-Edge-BottomLift.svg
+  - Section-Edge-BottomRight.svg
+  - Section-Edge-TopLift.svg
+  - Section-Edge-TopRight.svg
+  - Subtract-1.svg
+  - Subtract.svg
+  - cover-00.png
+  - favicon.png
+  - primary-light.png
+  - sup-logo.svg
+  - supercoach-dark.svg
+  - true.svg
+  - webclip.png
+
+USED IMAGES:
+---------------
+001---Nutrition.png
+001---Smart-Connect-1.png
+001---Smart-Connect.png
+001---Task-Reminder.png
+001---Training.png
+Arrow_1.svg
+Bench-Press-exercises.png
+Build-Custom-Workout-Programs.png
+Burpees-exercises.png
+Deadlifts-exercises.png
+Design-Tailored-Nutrition-Plans.png
+Instant-Client-Feedback.png
+Manage-Smarter-Train-Better.png
+Navbar-Edge-Lift.svg
+Navbar-Edge-Right-.svg
+Push-Ups-exercises-2.png
+Push-Ups-exercises-3.png
+Screenshot-2025-08-06-at-1.06.43-PM-1.png
+Screenshot-2025-08-06-at-1.51.52-PM-1.png
+Screenshot-2025-08-06-at-1.55.22-PM-1.png
+Screenshot-2025-08-06-at-11.58.36-AM-1.png
+Screenshot-2025-08-06-at-11.59.50-AM-1.png
+Screenshot-2025-08-06-at-12.03.01-PM-1.png
+Screenshot-2025-08-06-at-12.05.17-PM-1.png
+Screenshot-2025-08-06-at-12.08.23-PM-1.png
+Screenshot-2025-08-06-at-12.09.50-PM-1.png
+Screenshot-2025-08-06-at-12.11.37-PM-1.png
+Screenshot-2025-08-06-at-12.12.52-PM-1.png
+Screenshot-2025-08-06-at-12.16.51-PM-1.png
+Screenshot-2025-08-06-at-12.17.43-PM-1.png
+Screenshot-2025-08-06-at-12.22.43-PM-1.png
+Screenshot-2025-08-06-at-12.33.00-PM-1.png
+Section-Edge-BottomLift.svg
+Section-Edge-BottomRight.svg
+Section-Edge-TopLift.svg
+Section-Edge-TopRight.svg
+Star-rating.svg
+Subtract-1.svg
+Subtract.svg
+Task-Reminder.png
+Team--Branch-Management.png
+Triceps-Dips-exercises.png
+check-icon.svg
+chevron-down-g.svg
+client.png
+cover-00.png
+dahsboard-1.png
+db-s-1.png
+db-s-2.png
+db-s-3.png
+db-s-4.png
+favicon.png
+ico-1.svg
+ico-2.svg
+ico-3.svg
+ico-4.svg
+image-1.png
+image-1_1.png
+image.png
+left-edge.svg
+left-line.svg
+mob-0-1.png
+mob-0-2.png
+mob-0-3.png
+payments.png
+primary-light.png
+program.png
+progress.png
+right-edge.svg
+right-line.svg
+send-sqaure.svg
+sup-logo.svg
+supercoach-dark-logo.svg
+supercoach-dark.png
+supercoach-dark.svg
+true.svg
+user-image.png
+webclip.png
+workout-header.png
+
+UNUSED IMAGES:
+----------------
+001---Nutrition-p-500.png
+001---Nutrition-p-800.png
+001---Smart-Connect-1-p-500.png
+001---Smart-Connect-1-p-800.png
+001---Smart-Connect-p-500.png
+001---Smart-Connect-p-800.png
+001---Task-Reminder-p-500.png
+001---Task-Reminder-p-800.png
+001---Training-p-500.png
+001---Training-p-800.png
+1000002121-p-1080.jpg
+1000002121-p-1600.jpg
+1000002121-p-2000.jpg
+1000002121-p-2600.jpg
+1000002121-p-500.jpg
+1000002121-p-800.jpg
+1000002121.jpg
+1000002124-p-1080.jpg
+1000002124-p-500.jpg
+1000002124-p-800.jpg
+1000002124.jpg
+1000002132-p-1080.jpg
+1000002132-p-1600.jpg
+1000002132-p-500.jpg
+1000002132-p-800.jpg
+1000002132.jpg
+Boyka-Website-Header-p-1080.png
+Boyka-Website-Header-p-1600.png
+Boyka-Website-Header-p-500.png
+Boyka-Website-Header-p-800.png
+Brand-Identity-Horizontal-DB-1-p-1080.png
+Brand-Identity-Horizontal-DB-1-p-500.png
+Brand-Identity-Horizontal-DB-1-p-800.png
+Brand-Identity-Horizontal-DB-1.png
+Brand-Identity-Vertical-WB-p-1080.png
+Brand-Identity-Vertical-WB-p-500.png
+Brand-Identity-Vertical-WB-p-800.png
+Brand-Identity-Vertical-WB.png
+Build-Custom-Workout-Programs-p-1080.png
+Build-Custom-Workout-Programs-p-1600.png
+Build-Custom-Workout-Programs-p-2000.png
+Build-Custom-Workout-Programs-p-2600.png
+Build-Custom-Workout-Programs-p-3200.png
+Build-Custom-Workout-Programs-p-500.png
+Build-Custom-Workout-Programs-p-800.png
+Design-Tailored-Nutrition-Plans-p-1080.png
+Design-Tailored-Nutrition-Plans-p-1600.png
+Design-Tailored-Nutrition-Plans-p-2000.png
+Design-Tailored-Nutrition-Plans-p-2600.png
+Design-Tailored-Nutrition-Plans-p-3200.png
+Design-Tailored-Nutrition-Plans-p-500.png
+Design-Tailored-Nutrition-Plans-p-800.png
+Gym-1.png
+Gym-2.png
+Gym-3.png
+Gym-4.png
+Gym-5.png
+ISIMG-1016920-p-500.jpg
+ISIMG-1016920.jpg
+ISIMG-1016970-p-1080.jpg
+ISIMG-1016970-p-1600.jpg
+ISIMG-1016970-p-2000.jpg
+ISIMG-1016970-p-500.jpg
+ISIMG-1016970-p-800.jpg
+ISIMG-1016970.jpg
+ISIMG-1017659-p-1080.jpg
+ISIMG-1017659-p-1600.jpg
+ISIMG-1017659-p-2000.jpg
+ISIMG-1017659-p-2600.jpg
+ISIMG-1017659-p-3200.jpg
+ISIMG-1017659-p-500.jpg
+ISIMG-1017659-p-800.jpg
+ISIMG-1017659.jpg
+Instant-Client-Feedback-p-1080.png
+Instant-Client-Feedback-p-1600.png
+Instant-Client-Feedback-p-2000.png
+Instant-Client-Feedback-p-2600.png
+Instant-Client-Feedback-p-3200.png
+Instant-Client-Feedback-p-500.png
+Instant-Client-Feedback-p-800.png
+Manage-Smarter-Train-Better-p-1080.png
+Manage-Smarter-Train-Better-p-1600.png
+Manage-Smarter-Train-Better-p-2000.png
+Manage-Smarter-Train-Better-p-2600.png
+Manage-Smarter-Train-Better-p-3200.png
+Manage-Smarter-Train-Better-p-500.png
+Manage-Smarter-Train-Better-p-800.png
+Nutrition-p-500.png
+Nutrition-p-800.png
+Nutrition.png
+Nutrition_1-p-1080.png
+Nutrition_1-p-500.png
+Nutrition_1-p-800.png
+Nutrition_1.png
+Play-Button.png
+Screenshot-2024-09-18-at-12.36.53-PM-p-500.png
+Screenshot-2024-09-18-at-12.36.53-PM-p-800.png
+Screenshot-2025-08-06-at-1.06.43-PM-1-p-1080.png
+Screenshot-2025-08-06-at-1.06.43-PM-1-p-500.png
+Screenshot-2025-08-06-at-1.06.43-PM-1-p-800.png
+Screenshot-2025-08-06-at-1.51.52-PM-1-p-1080.png
+Screenshot-2025-08-06-at-1.51.52-PM-1-p-500.png
+Screenshot-2025-08-06-at-1.51.52-PM-1-p-800.png
+Screenshot-2025-08-06-at-1.55.22-PM-1-p-1080.png
+Screenshot-2025-08-06-at-1.55.22-PM-1-p-500.png
+Screenshot-2025-08-06-at-1.55.22-PM-1-p-800.png
+Screenshot-2025-08-06-at-11.58.36-AM-1-p-1080.png
+Screenshot-2025-08-06-at-11.58.36-AM-1-p-500.png
+Screenshot-2025-08-06-at-11.58.36-AM-1-p-800.png
+Screenshot-2025-08-06-at-11.59.50-AM-1-p-1080.png
+Screenshot-2025-08-06-at-11.59.50-AM-1-p-500.png
+Screenshot-2025-08-06-at-11.59.50-AM-1-p-800.png
+Screenshot-2025-08-06-at-12.03.01-PM-1-p-1080.png
+Screenshot-2025-08-06-at-12.03.01-PM-1-p-500.png
+Screenshot-2025-08-06-at-12.03.01-PM-1-p-800.png
+Screenshot-2025-08-06-at-12.05.17-PM-1-p-1080.png
+Screenshot-2025-08-06-at-12.05.17-PM-1-p-500.png
+Screenshot-2025-08-06-at-12.05.17-PM-1-p-800.png
+Screenshot-2025-08-06-at-12.08.23-PM-1-p-1080.png
+Screenshot-2025-08-06-at-12.08.23-PM-1-p-500.png
+Screenshot-2025-08-06-at-12.08.23-PM-1-p-800.png
+Screenshot-2025-08-06-at-12.09.50-PM-1-p-1080.png
+Screenshot-2025-08-06-at-12.09.50-PM-1-p-500.png
+Screenshot-2025-08-06-at-12.09.50-PM-1-p-800.png
+Screenshot-2025-08-06-at-12.11.37-PM-1-p-1080.png
+Screenshot-2025-08-06-at-12.11.37-PM-1-p-500.png
+Screenshot-2025-08-06-at-12.11.37-PM-1-p-800.png
+Screenshot-2025-08-06-at-12.12.52-PM-1-p-1080.png
+Screenshot-2025-08-06-at-12.12.52-PM-1-p-500.png
+Screenshot-2025-08-06-at-12.12.52-PM-1-p-800.png
+Screenshot-2025-08-06-at-12.16.51-PM-1-p-1080.png
+Screenshot-2025-08-06-at-12.16.51-PM-1-p-500.png
+Screenshot-2025-08-06-at-12.16.51-PM-1-p-800.png
+Screenshot-2025-08-06-at-12.17.43-PM-1-p-1080.png
+Screenshot-2025-08-06-at-12.17.43-PM-1-p-500.png
+Screenshot-2025-08-06-at-12.17.43-PM-1-p-800.png
+Screenshot-2025-08-06-at-12.22.43-PM-1-p-1080.png
+Screenshot-2025-08-06-at-12.22.43-PM-1-p-500.png
+Screenshot-2025-08-06-at-12.22.43-PM-1-p-800.png
+Screenshot-2025-08-06-at-12.33.00-PM-1-p-1080.png
+Screenshot-2025-08-06-at-12.33.00-PM-1-p-500.png
+Screenshot-2025-08-06-at-12.33.00-PM-1-p-800.png
+Smart-Connect-1-p-500.png
+Smart-Connect-1-p-800.png
+Smart-Connect-1.png
+Smart-Connect-2-p-500.png
+Smart-Connect-2-p-800.png
+Smart-Connect-2.png
+Smart-Connect-p-500.png
+Smart-Connect-p-800.png
+Smart-Connect.png
+Task-Reminder-p-500.png
+Task-Reminder-p-800.png
+Team--Branch-Management-p-1080.png
+Team--Branch-Management-p-1600.png
+Team--Branch-Management-p-2000.png
+Team--Branch-Management-p-2600.png
+Team--Branch-Management-p-3200.png
+Team--Branch-Management-p-500.png
+Team--Branch-Management-p-800.png
+Training-p-500.png
+Training-p-800.png
+Training.png
+Training_1-p-1080.png
+Training_1-p-500.png
+Training_1-p-800.png
+Training_1.png
+Who-Am-I-Video-Preview-p-1080.jpg
+Who-Am-I-Video-Preview-p-1600.jpg
+Who-Am-I-Video-Preview-p-2000.jpg
+Who-Am-I-Video-Preview-p-500.jpg
+Who-Am-I-Video-Preview-p-800.jpg
+Who-Am-I-Video-Preview.jpg
+arrow.svg
+ballons-p-1080.png
+ballons-p-1600.png
+ballons-p-2000.png
+ballons-p-2600.png
+ballons-p-500.png
+ballons-p-800.png
+ballons.png
+blue-light-shadow-p-1080.png
+blue-light-shadow-p-500.png
+blue-light-shadow-p-800.png
+bottom-left.svg
+challenge-p-1080.png
+challenge-p-500.png
+challenge-p-800.png
+challenge.png
+chat-p-1080.png
+chat-p-500.png
+chat-p-800.png
+chat.png
+cover-00-p-1080.png
+cover-00-p-130x130q80.png
+cover-00-p-1600.png
+cover-00-p-2000.png
+cover-00-p-2600.png
+cover-00-p-3200.png
+cover-00-p-500.png
+cover-00-p-800.png
+dahsboard-1-p-500.png
+db-s-1-p-500.png
+db-s-1-p-800.png
+db-s-2-p-500.png
+db-s-2-p-800.png
+db-s-3-p-500.png
+db-s-3-p-800.png
+db-s-4-p-500.png
+db-s-4-p-800.png
+dp-assets-p-1080.png
+dp-assets-p-1600.png
+dp-assets-p-2000.png
+dp-assets-p-500.png
+dp-assets-p-800.png
+dp-assets.avif
+dp-home_1.avif
+dp-home_1dp-home.avif
+dp-meals_1.avif
+dp-meals_1dp-meals.avif
+dp-program_1-p-1080.png
+dp-program_1-p-1600.png
+dp-program_1-p-2000.png
+dp-program_1.avif
+dp-program_1dp-program.avif
+dp-user_1.avif
+dp-user_1dp-user.avif
+gouda-h-ar-p-1080.png
+gouda-h-ar-p-500.png
+gouda-h-ar-p-800.png
+gouda-h-ar.png
+gouda-h-p-1080.png
+gouda-h-p-500.png
+gouda-h-p-800.png
+gouda-h.png
+gouda.png
+goude-jumb-p-500.png
+goude-jumb-p-800.png
+goude-jumb.png
+gym-p-500.png
+gym-p-800.png
+gym.png
+image-1-p-500.png
+image-1-p-800.png
+image-1_1-p-500.png
+image-1_1-p-800.png
+image-p-500.png
+image-p-800.png
+line.svg
+long-line.svg
+long-right.svg
+mob-0-1-p-500.png
+mob-0-2-p-500.png
+mob-0-2-p-800.png
+mob-0-3-p-500.png
+mob-0-3-p-800.png
+primary-light-p-500.png
+primary-light-p-800.png
+progress_1-p-1080.png
+progress_1-p-500.png
+progress_1-p-800.png
+progress_1.png
+redline-p-500.png
+redline.png
+screen-1-p-130x130q80.png
+screen-1-p-500.png
+screen-1-p-800.png
+screen-1.png
+screen-2-p-130x130q80.png
+screen-2-p-500.png
+screen-2-p-800.png
+screen-2.png
+screen-3-p-130x130q80.png
+screen-3-p-500.png
+screen-3-p-800.png
+screen-3.png
+screen-4-p-130x130q80.png
+screen-4-p-500.png
+screen-4-p-800.png
+screen-4.png
+screen-5-p-130x130q80.png
+screen-5-p-500.png
+screen-5-p-800.png
+screen-5.png
+screen-5_1-p-1080.png
+screen-5_1-p-130x130q80.png
+screen-5_1-p-1600.png
+screen-5_1-p-2000.png
+screen-5_1-p-500.png
+screen-5_1-p-800.png
+screen-5_1.png
+supercoach-dark-p-500.png
+supercoach-dark-p-800.png
+t-right.svg
+top-right-2.svg
+workout-header-p-500.png
+workout-header-p-800.png

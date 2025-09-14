@@ -1,0 +1,103 @@
+{
+  "nav": {
+    "home": "Home",
+    "workout": "Workout",
+    "nutrition": "Nutrition",
+    "pricing": "Pricing",
+    "blog": "Blog",
+    "language": "Language"
+  },
+  "hero": {
+    "title": "Effortless Coaching, Exponential Growth.",
+    "subtitle": "Grow your personal training business by turning hours of fitness program creation and client management into minutes",
+    "cta": "Start Free Trial",
+    "watchDemo": "Watch Demo",
+    "features": {
+      "program": {
+        "title": "Program Builder",
+        "description": "Create custom workout programs in minutes"
+      },
+      "progress": {
+        "title": "Progress Tracking",
+        "description": "Monitor client progress with detailed analytics"
+      },
+      "client": {
+        "title": "Client Management",
+        "description": "Manage all your clients in one place"
+      },
+      "payments": {
+        "title": "Payments",
+        "description": "Handle billing and payments seamlessly"
+      }
+    }
+  },
+  "dashboard": {
+    "title": "ONE DASHBOARD TO",
+    "titleMiddle": "MAKE YOU A",
+    "titleHighlight": "SUPERCOACH!",
+    "description": "Precision programs, real-time progress tracking, and seamless client management, all in one AI-driven dashboard.",
+    "features": {
+      "manage": "MANAGE SMARTER, TRAIN BETTER",
+      "workout": "WORKOUT BUILDER, SEAMLESSLY POWERED BY AI",
+      "nutrition": "CUSTOM MEALS OR OUR LIBRARY OF TASTY RECIPES",
+      "feedback": "DATA AT YOUR FINGERTIPS",
+      "team": "TEAM & BRANCH MANAGEMENT MULTIPLY YOUR IMPACT"
+    },
+    "tabs": {
+      "overview": "Overview",
+      "progress": "Progress",
+      "schedule": "Schedule",
+      "metrics": "Metrics",
+      "images": "Images",
+      "settings": "Settings"
+    },
+    "bottomTitle": "MANAGE SMARTER, TRAIN BETTER",
+    "bottomDescription": "Effortlessly manage your online training business, personalize client experiences, and drive results with the all-in-one solution for fitness professionals.",
+    "featureDescriptions": {
+      "manage": "Effortlessly manage your online training business, personalize client experiences, and drive results with the all-in-one solution for fitness professionals.",
+      "workout": "Create killer workouts in seconds—use your own videos or tap into our massive library of exercises for home or gym.",
+      "nutrition": "Custom meals or our library of tasty recipes—SuperCoach dishes out the perfect plan so your clients never get bored.",
+      "feedback": "Empower your clients to respond to tasks by uploading key data like INBody readings, progress PHOTOS, lab reports, measurements, AND EXERCISE FORM CHECK—giving you real-time insights to fine-tune their programs.",
+      "team": "Manage coaches, delegate tasks, and expand to new branches—without losing control or consistency."
+    }
+  },
+  "mobile": {
+    "title": "Mobile Experience",
+    "description": "Mobile tabs section content will be migrated here..."
+  },
+  "features": {
+    "title": "App Features",
+    "description": "App features section content will be migrated here..."
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "description": "How it works section content will be migrated here..."
+  },
+  "banner": {
+    "title": "Banner Section",
+    "description": "Banner section content will be migrated here..."
+  },
+  "testimonials": {
+    "title": "Testimonials",
+    "description": "Testimonials section content will be migrated here..."
+  },
+  "blog": {
+    "title": "Blog Section",
+    "description": "Blog section content will be migrated here..."
+  },
+  "faq": {
+    "title": "FAQ",
+    "description": "FAQ section content will be migrated here..."
+  },
+  "footer": {
+    "title": "Footer",
+    "description": "Footer content will be migrated here..."
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "contactUs": "Contact Us",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  }
+}

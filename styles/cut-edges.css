@@ -1,0 +1,28 @@
+/* Cut Edges Styles - Reusable Ratios */
+
+/* Standard Cut Edges - 28px (Recommended) */
+.cut-edges-standard {
+  clip-path: polygon(28px 0, calc(100% - 28px) 0, 100% 28px, 100% calc(100% - 28px), calc(100% - 28px) 100%, 28px 100%, 0 calc(100% - 28px), 0 28px);
+}
+
+/* Small Cut Edges - 20px */
+.cut-edges-small {
+  clip-path: polygon(20px 0, calc(100% - 20px) 0, 100% 20px, 100% calc(100% - 20px), calc(100% - 20px) 100%, 20px 100%, 0 calc(100% - 20px), 0 20px);
+}
+
+/* Large Cut Edges - 40px */
+.cut-edges-large {
+  clip-path: polygon(40px 0, calc(100% - 40px) 0, 100% 40px, 100% calc(100% - 40px), calc(100% - 40px) 100%, 40px 100%, 0 calc(100% - 40px), 0 40px);
+}
+
+/* Extra Large Cut Edges - 60px */
+.cut-edges-extra-large {
+  clip-path: polygon(60px 0, calc(100% - 60px) 0, 100% 60px, 100% calc(100% - 60px), calc(100% - 60px) 100%, 60px 100%, 0 calc(100% - 60px), 0 60px);
+}
+
+/* Usage Examples:
+   - Standard: <div className="cut-edges-standard">Content</div>
+   - Small: <div className="cut-edges-small">Content</div>
+   - Large: <div className="cut-edges-large">Content</div>
+   - Extra Large: <div className="cut-edges-extra-large">Content</div>
+*/

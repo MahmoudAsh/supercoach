@@ -1,0 +1,75 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Next.js
+/.next/
+/out/
+
+# Production
+/build
+
+# Misc
+.DS_Store
+*.pem
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local env files
+.env*.local
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# IDE
+.vscode/
+.idea/
+# Large video files
+*.mp4
+*.webm
+videos/
+
+# Large image files
+images/Screenshot-*.png
+images/goude.png
+images/Team--Branch-Management.png
+images/primary-light.png
+images/article_*.png
+images/Manage-Smarter-Train-Better.png
+images/Build-Custom-Workout-Programs.png
+images/Design-Tailored-Nutrition-Plans.png
+images/Instant-Client-Feedback.png
+images/Task-Reminder.png
+images/mob-0-*.png
+images/cover-00.png
+images/workout-header.png
+images/dahsboard-1.png
+images/db-s-*.png
+
+# Public directory large files
+public/images/primary-light.png
+public/images/article_*.png
+public/images/Manage-Smarter-Train-Better.png
+public/images/Build-Custom-Workout-Programs.png
+public/images/Design-Tailored-Nutrition-Plans.png
+public/images/Instant-Client-Feedback.png
+public/images/Task-Reminder.png
+public/images/mob-0-*.png
+public/images/cover-00.png
+public/images/workout-header.png
+public/images/dahsboard-1.png
+public/images/db-s-*.png
+
+# Other large files
+article_*.png
